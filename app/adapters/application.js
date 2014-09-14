@@ -1,6 +1,5 @@
-var db = new PouchDB('bloggr');
-db.sync('http://localhost:5984/bloggr', {live: true});
+import DS from 'ember-data';
 
-export default EmberPouch.Adapter.extend({
-  db: db
+export default DS.FirebaseAdapter.extend({
+  firebase: new window.Firebase('https://embercliblogfire.firebaseIO.com')
 });
