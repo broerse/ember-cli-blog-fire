@@ -1,5 +1,7 @@
 # Myapp
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/broerse/ember-cli-blog-fire.svg)](https://greenkeeper.io/)
+
 This README outlines the details of collaborating on this Ember application.
 
 ## Prerequisites
